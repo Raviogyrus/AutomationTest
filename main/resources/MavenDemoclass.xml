@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Name 1"  > 
+<!-- suite name="Suite Name" --> 
+
+
+             <test name="mavenDemoPackage" allow-return-values="true">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="mavenDemoPackage.MavenDemoClass"/>
+                             <!--  >class name ="ExcelUtil.ExcelReader" /-->
+                     </classes>
+             </test>
+
+             <test name="ExcelUtil" allow-return-values="true">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                       <class name ="ExcelUtil.ExcelReader"/>
+                     </classes>
+             </test>
+
+
+</suite>
